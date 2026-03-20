@@ -39,7 +39,7 @@ cp .env.example .env
 # Editer .env et ajouter ta GROQ_API_KEY
 
 # 5. Indexer la base vectorielle
-python scripts/create_embeddings.py
+python scripts/chroma_db.py
 
 # 6. Lancer l'application
 streamlit run app.py
