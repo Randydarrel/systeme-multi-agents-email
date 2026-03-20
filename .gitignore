@@ -1,0 +1,30 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Clé API — NE JAMAIS pousser ce fichier
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base ChromaDB (volumineuse, peut être recréée)
+embeddings/chroma_db/
+
+# Données brutes (trop lourdes pour GitHub)
+data/
+
+# Fichiers de résultats de test
+resultats/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
